@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "d5878a3c-2f1c-4b63-bb0f-b5441c9ba520",
+		"name": "GoJMeter",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25332615"
+	},
+	"item": [
+		{
+			"name": "HelloReq",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "UploadJMX",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "RunTests",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/run-tests",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"run-tests"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
